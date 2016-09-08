@@ -7,9 +7,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'bourbon'
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
+
   gem 'spring'
 end
 gem 'administrate'
@@ -24,6 +25,7 @@ group :development do
   gem 'hub', :require=>nil
   gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem 'web-console', '~> 2.0'
 end
 group :development, :test do
   gem 'factory_girl_rails'
